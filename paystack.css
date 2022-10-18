@@ -1,0 +1,1500 @@
+*{
+
+    color: rgb(1, 27, 51);
+    font-family:'poppins',sans-serif ;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box; 
+}
+.head{
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    height: 120px;
+    padding-left:40px;
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    position: fixed;
+    flex-direction: row;
+    gap: 30px;
+    padding: 30px 70px 30px 70px;
+}
+.firsthead{
+   
+    font-size: 35px;
+    font-weight: 900;
+}
+.first ,.second{
+    font-size: 22px;
+    font-weight: 650;
+}
+ .link:hover{
+    color:rgb(0, 195, 247); 
+}
+.first{
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.total {
+  
+    padding-top: 16px;
+justify-content: space-between;
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.bar
+{
+    color:rgb(0, 195, 247);
+}
+.subtitle{
+    display: none;
+    line-height: 30px;
+    width: 500px;
+}
+.link:hover .subtitle:hover{
+    display:flex;
+    flex-direction:column ;
+    position: absolute;
+    background-color: black;
+    margin-top: 70px;
+    margin-left: -15px;
+}
+.all{
+    display: flex;
+    flex-direction: row;
+}
+.bold{
+    padding-bottom: 20px;
+}
+.texts{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+.second{
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: ;
+   padding-left: 350px;
+}
+.btn{
+    cursor: pointer;
+    margin-left: 0px;
+    margin-top: 0;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    color:#fff;
+   background-color: rgb(59, 183, 94);
+   border: none;
+   transition: 0.5s;
+}
+.btn:hover{
+    will-change: transform, box-shadow;
+    transition: ease-in-out 0.3s all;
+background-color:#3bb75e;
+    
+}
+input{
+    display: none;
+    visibility: hidden;
+    -webkit-appearance: none;
+}
+.toggle{
+    display: none;
+position: absolute;
+height: 40px;
+width: 40px;
+background-color: #fff;
+z-index: 1;
+cursor: pointer;
+border-radius: 2px;
+top: 50px;
+left: 20px;
+}
+.toggle .common{
+   
+    position: absolute;
+    height: 3px;
+    width:30px;
+    background-color: black;
+    border-radius: 50px;
+    transition: 0.3s ease;
+}
+.toggle .top-line{
+    top: 30%;
+    left: 50%;
+    transform:translate(-50%,-50%)
+    }
+    .toggle .middle-line{
+        top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%)
+    }
+    .toggle .bottom-line{
+        top: 70%;
+    left: 50%;
+    transform:translate(-50%,-50%)
+    }
+    input:checked ~  .toggle .top-line {
+        left: 2px;
+        top: 14px;
+        width:25px;
+    transform: rotate(45deg);
+    }
+    input:checked ~ .toggle .bottom-line{
+        left: 2px;
+        top: 14px;
+        width:25px;
+    transform: rotate(-45deg);
+    }
+    input:checked ~ .toggle .middle-line{
+        opacity: 0;
+    transform: translateX(20px);
+}
+.first-section{
+    background-color: #f5fcf7;
+    display: flex;
+    flex-direction: column;
+    padding-top: 300px;
+    padding-left: 80px;
+    
+}
+.mordern{
+    padding-right: 900px;
+    line-height: 100px;
+    font-size: 70px;
+    font-weight: bold;
+    color: rgb(1, 27, 51);
+}
+.online{
+    padding-bottom: 40px;
+}
+.help{
+   font-size: 30px;
+   line-height: 50px;
+}
+.button{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.sale, .or{
+   
+    color: #33a754;
+    font-size: 23px;
+    padding-top: 20px;
+}
+.or{
+    padding-top: 400px;
+}
+.create{
+    font-size: 25px;
+    cursor: pointer;
+   width: 300px;
+   padding: 20px 20px 20px 20px;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    color:#fff;
+   background-color: rgb(59, 183, 94);
+   transition: 0.5s;
+}
+.create:hover{
+    will-change: transform, box-shadow;
+    transition: ease-in-out 0.3s all;
+background-color:#3bb75e;
+    
+}
+.everthing{
+    gap:500px;
+ 
+  padding-top:200px;
+  
+    display: flex;
+    flex-direction:row;
+}
+.part2{
+    display: flex;
+    flex-direction: row;
+}
+.trust{
+    font-size: 25px;
+    font-weight: bold;
+}
+.part1{
+  gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.imgs{
+  
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.img{
+    width: 150px;
+    height: 60px;
+}
+
+
+.play{
+height: 60px;
+    font-size: 20px;
+    color: #fff;
+    gap: 30px;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(0, 195, 247); 
+    padding: 20px;
+    padding-bottom: 5px;
+    border-radius: 60px;
+}
+.second-section{
+background-color: #fff;
+padding-bottom: 300px;
+display: flex;
+flex-direction: column;
+padding-top: 200px;
+padding-left: 100px;
+}
+.simple{
+    padding-bottom: 30px;
+    font-size: 70px;
+    font-weight: bold;
+}
+.build{
+    font-weight: 500;
+    font-size:30px ;
+}
+.change,.sport{
+    padding-right: 190px;
+    padding-top: 150px;
+    gap: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.delight ,.your{
+    
+    padding-bottom: 30px;
+    font-size: 60px;
+    font-weight: bold;
+}
+.give  ,.gave{
+    padding-right: 200px;
+    font-weight: 500;
+    font-size:30px ;
+}
+.gave{
+    padding-bottom: 100px;
+}
+.icons{
+    padding-bottom: 50px;
+    line-height: 60px;
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+    padding-top: 50px;
+}
+.checks{
+    color: #33a754;
+}
+.cards{
+    font-size: 25px;
+    font-weight: 500;
+}
+.cad{
+    font-weight: bold;
+    color: #33a754;
+    font-size: 20px;
+}
+.checkss:hover{
+    background-color: #33a754;
+    color: #fff;
+}
+.checkss{
+    
+  color: #33a754;
+    padding: 5px;
+    font-size: 30px;
+    border: 4px solid #3bb75e;
+    border-radius: 400px;
+}
+.custom{
+    padding-top: 300px;
+  display: flex;
+  flex-direction: row;
+}
+.delights{
+    padding-right: 200px;
+    padding-bottom: 30px;
+    font-size: 60px;
+    font-weight: bold;
+}
+.gives{
+    padding-right: 400px;
+    font-weight: 500;
+    font-size:30px ;
+}
+.pic{
+    padding-right: 00px;
+}
+.sport{
+    padding-right: 190px;
+    padding-top: 150px;
+    gap: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.third-section{
+    padding-top: ;
+    background-image: url("https://paystack.com/assets/img/patterns/checked-pattern-blue.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color:rgb(232, 255, 255);
+width: 100%;
+height: 100%;
+padding-top: 200px;
+padding-left: 100px;
+padding-right: 100px;
+
+}
+.business{
+    
+    padding-bottom: 30px;
+    font-size: 70px;
+    font-weight: bold;
+}
+.thousand{
+    font-weight: 500;
+    font-size:30px ;  
+}
+.three{
+    padding-bottom: 100px;
+    padding-top: 100px;
+    justify-content: space-around;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.entre{
+
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.brand{
+    padding-left: 40px;
+    padding-bottom: 30px;
+    padding-right: 250px;
+font-size: 35px;
+font-weight: bold;
+}
+.brands{
+    padding-left: 40px;
+    padding-right: 70px;
+    font-weight: 500;
+    font-size:25px ;  
+}
+.learn{
+    padding-top: 0;
+    padding-left: 40px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.global{
+    padding: 40px 40px 40px 40px;
+    width: 200px;
+    height: 200px;
+}
+.fourth-section{
+    padding-top: 200px;
+padding-left: 100px;
+padding-right: 100px;
+display: flex;
+flex-direction: column;
+}
+.businesses{
+    padding-right: 600px;
+    padding-bottom: 30px;
+    font-size: 70px;
+    font-weight: bold;
+}
+.thousands{
+    padding-right: 900px;
+    font-weight: 500;
+    font-size:30px ;  
+}
+.pictures{
+    padding-top: 100px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+.first-set,.second-set{
+    display: flex;
+  line-height: 200px;
+    flex-direction: row;
+}
+.low{
+    width: 150px;
+    
+}
+.fifth-section{
+    background-size: 700px 700px;
+    background-position: calc(100% + 200px);
+    background-repeat: no-repeat;
+
+    background-image: url("	https://paystack.com/assets/img/patterns/circular-pattern.png");
+    
+    background-color:rgb(232, 255, 255);
+width: 100%;
+height: 100%;
+padding-top: 200px;
+padding-left: 100px;
+padding-right: 100px;
+
+}
+.patrick{
+    gap: 20px;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: row;
+}
+.age{
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+}
+.collison{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.otto{
+    font-size: 25px;
+    font-weight: bold;
+}
+.stripe{
+    font-size: 20px;
+    font-weight: 500;
+}
+.asset{
+    padding: 40px 40px 40px 40px;
+   width: 210px;
+   height: 110px;
+}
+.y{
+    width: 110px;
+   height: 110px;
+}
+.sixth-section{
+    background-size: inherit;
+    background-image: url("	https://paystack.com/assets/img/patterns/curved-pattern.png");
+    background-position: 0 50px;
+    background-repeat: repeat-x;
+  
+    background-color:#fff;
+width: 100%;
+height: 100%;
+padding-top: 200px;
+padding-left: 100px;
+padding-right: 100px;
+display: flex;
+flex-direction: column;
+}
+.try{
+    font-size: 35px;
+    font-weight:300;
+}
+.start{
+    
+    padding-right:0px;
+    padding-bottom: 0px;
+    font-size: 70px;
+    font-weight: bold;
+}
+.buttun{
+   gap: 150px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 200px;
+}
+.acc{
+    height: 70px;
+    font-size: 25px;
+    cursor: pointer;
+   width: 300px;
+   padding: 20px 20px 20px 20px;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    color:#fff;
+   background-color: rgb(59, 183, 94);
+   transition: 0.5s;
+}
+.acc:hover{
+    will-change: transform, box-shadow;
+    transition: ease-in-out 0.3s all;
+background-color:#3bb75e;
+    
+}
+.every{
+  gap: 300px;
+    display: flex;
+    flex-direction: row;
+}
+.why{
+    padding-top: 10px;
+    font-weight: bold;
+    font-size:30px;
+}
+.main,.major{
+   line-height: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+.me{
+    padding-top: 30px;
+}
+.minor ,.me,.minoor{
+    font-size: 25px;
+}
+.down{
+    display: none;
+}
+.footer{
+    padding-bottom: 300px;
+    padding-top: 200px;
+padding-left: 100px;
+padding-right: 100px;
+display: flex;
+flex-direction: column;
+}
+.blue{
+    color: rgb(102, 171, 190);
+}
+.number{
+    font-size: 25px;
+    padding-top: 10px;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    font-size: 45px;
+    gap: 25px;
+    color: rgb(102, 171, 190) ;
+}
+.fab{
+    color: rgb(61, 94, 105) ;
+}
+.row{
+    padding-bottom: 40px;
+}
+@media (max-width:1550px){
+    input:checked ~ .total{
+        transform: translateY(0);
+     }
+     .first-section{
+
+     }
+   
+    .toggle{
+       
+        left: 88vw;
+        top: 50px;
+        justify-content: flex-end;
+        display: flex;
+    }
+    .head{
+      
+        padding-left: 0px;
+        justify-content:;
+        width: 100%;
+        max-width: 100%;
+        height: px;
+       position: fixed;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 30px 70px 30px 30px;
+    }
+    .firsthead{
+        
+        font-size: 35px;
+        font-weight: 900;
+    }
+    .first ,.second{
+        
+        font-size: 22px;
+        font-weight: 650;
+    }
+     .link:hover{
+        color:rgb(0, 195, 247); 
+    }
+    .total {
+       
+        background-color:#fff;
+        transform: translateY(-600px);
+     transition:  0.5s;
+    
+        gap: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .bar
+    {
+        color:rgb(0, 195, 247);
+    }
+    
+    .second ,.first{
+        flex-direction: column;
+        padding: 0;
+    }
+   .emoji{
+    display: none;
+   }
+   .everthing{
+    gap:10px;
+ 
+  padding-top: 100px;
+  
+    display: flex;
+    flex-direction:column;
+}
+.dis{
+   margin-right: 200px;
+    height: 30px;
+ gap:2px;
+    display: flex;
+    flex-direction: row;
+}
+.trust{
+    font-weight: bold;
+    font-size: 25px;
+}
+.answer{
+gap: 0;
+    font-weight: bold;
+    font-size: 25px;
+}
+.question {
+   padding-left: 200px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.part1{
+  gap: 500px;
+    display: flex;
+    flex-direction: row;
+}
+.imgs{
+  
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.img{
+    width: 150px;
+    height: 60px;
+}
+
+
+
+
+}
+@media (max-width:950px){
+    .toggle{
+       
+        left: 90vw;
+        top: 50px;
+        justify-content: flex-end;
+        display: flex;
+    }
+    .head{
+      
+        padding-left: 0px;
+        justify-content:;
+        width: 100%;
+        max-width: 100%;
+        height: px;
+       position: fixed;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 30px 70px 30px 30px;
+    }
+    .firsthead{
+        
+        font-size: 35px;
+        font-weight: 900;
+    }
+    .first ,.second{
+        
+        font-size: 22px;
+        font-weight: 650;
+    }
+     .link:hover{
+        color:rgb(0, 195, 247); 
+    }
+    .total {
+       
+        background-color:#fff;
+        transform: translateY(-600px);
+     transition:  0.5s;
+    
+        gap: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .first-section{
+        line-height: 30px;
+        padding-top: 200px;
+        padding-left: 30px;
+    }
+    .mordern{
+        padding-right: 50px;
+        font-size: 50px;
+        line-height: 60px;
+
+    }
+    .help{
+        font-size: 25px;
+        line-height: 40px;
+     }
+     .everthing{
+        gap:50px;
+     
+      padding-top: 100px;
+      
+        display: flex;
+        flex-direction:column;
+    }
+    .part2{
+        display: flex;
+        flex-direction: column;
+    }
+    .trust{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .part1{
+      gap: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .imgs{
+      
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    .img{
+        width: 60px;
+        height: 60px;
+    }
+    
+    
+    
+    .play{
+ background-color: #e1ffe9;
+        font-size: 30px;
+        color:rgb(0, 195, 247);
+        gap: 0px;
+      width: px;
+      padding-top: 0px;
+       padding-bottom: 0px;
+       text-align: left;
+       align-items: center;
+        border-radius:0;
+    }
+    .second-section{
+       
+        display: flex;
+        flex-direction: column;
+        padding-top: 100px;
+        padding-left: 40px;
+        }
+        .simple{
+            padding-bottom: 20px;
+            font-size: 50px;
+            font-weight: bold;
+        }
+        .build{
+            font-weight: 500;
+            font-size:25px ;
+        }
+        .change ,.sport{
+            padding-right: 100px;
+            padding-top: 150px;
+            gap: 100px;
+            display: flex;
+            flex-direction: column;
+        }
+        .delight{
+    
+            padding-bottom: 30px;
+            font-size: 40px;
+            font-weight: bold;
+        }
+        .give{
+            padding-right: 200px;
+            font-weight: 500;
+            font-size:25px ;
+        }
+        .icons{
+            line-height: 60px;
+            display: flex;
+            flex-direction: column;
+            gap: 0px;
+            padding-top: 50px;
+        }
+        .custom{
+
+            padding-right: 0;
+            padding-top: 100px;
+          display: flex;
+          flex-direction: column-reverse;
+        }
+        .delights,.your{
+            padding-top: 100px;
+            padding-right: 30px;
+            padding-bottom: 30px;
+            font-size: 40px;
+            font-weight: bold;
+        }
+        .gives{
+            padding-right: 200px;
+            font-weight: 500;
+            font-size:25px ;
+        }
+        .pic{
+          padding-left: 0;
+            width: 0px;
+            padding-right: 0px;
+        }
+        .self{
+            display: none;
+        }
+        .gave{
+            padding-right: 0px;
+            font-weight: 500;
+            font-size:25px ;
+        }
+        .gave{
+            padding-bottom: 50px;
+        }
+       .sport{
+            padding-right: 100px;
+            padding-top: 100px;
+            gap: 100px;
+            display: flex;
+            flex-direction: row;
+        }
+        .three{
+            padding-top: 30px;
+           
+            gap: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+        .brand{
+            padding-left: 40px;
+            padding-bottom: 20px;
+            padding-right: 200px;
+        font-size: 25px;
+       
+        }
+        .brands{
+            padding-left: 40px;
+            padding-right: 0px;
+            font-weight: 500;
+            font-size:22px ;  
+        }
+        .learn{
+            padding-top: 0;
+            padding-left: 40px;
+            font-size: 22px;
+            font-weight: bold;
+        }
+        .global{
+            padding: 20px 20px 20px 20px;
+            width: 200px;
+            height: 200px;
+        }
+        .business{
+    
+            padding-bottom: 20px;
+            font-size: 40px;
+            font-weight: bold;
+        }
+        .thousand{
+            font-weight: 500;
+            font-size:25px ;  
+        }
+        .third-section{
+            padding-top: ;
+            background-image: url("https://paystack.com/assets/img/patterns/checked-pattern-blue.png");
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-color:lightcyan;
+        width: 100%;
+        height: 100%;
+        padding-top: 50px;
+        padding-left: 40px;
+        padding-right: 40px;
+        
+    }
+    .fourth-section ,.sixth-section,.footer{
+        padding-top: 50px;
+        padding-left: 40px;
+        padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+    }
+    .businesses{
+        padding-right: 0;
+        padding-bottom: 20px;
+            font-size: 40px;
+            font-weight: bold;
+        font-weight: bold;
+    }
+    .thousands{
+        padding-right: 0px;
+        font-weight: 500;
+        font-size:25px ;  
+    }
+    .level{
+        display: none;
+    }
+    .pictures{
+        padding-top: 100px;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+    }
+    .first-set,.second-set{
+        display: flex;
+        gap: 100px;
+      line-height: 100px;
+        flex-direction: row;
+    }
+    .low{
+        width: 100px;
+        
+    }
+    .try{
+        text-align: center;
+        font-size: 25px;
+        font-weight:300;
+    }
+    .start{
+       
+        padding-right:0px;
+        padding-bottom: 0px;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .buttun{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+       gap: 150px;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 200px;
+    }
+    .every{
+        gap: 0px;
+          display: flex;
+          flex-direction: column;
+      }
+      .why{
+          padding-top: 10px;
+          font-weight: bold;
+          font-size:30px;
+      }
+      .main,.major{
+         line-height: 60px;
+          display: flex;
+          flex-direction: column;
+          gap: 0px;
+      }
+      .me{
+        display: none;
+          padding-top: 30px;
+      }
+      .minor ,.me{
+        transition: 0.5s ;
+        display: none;
+        transform: translateY(-10px);
+          font-size: 25px;
+      }
+      .down{
+      
+          display: inline;
+          float: right;
+      }
+     
+      [id^=btn-]:checked ~ .minor{
+        transform: translateY(0px);
+        display: block;
+      }
+     .minoor{
+        font-size: 25px;
+     }
+     .row{
+        padding: 0;
+     }
+}
+    @media (max-width:550px){
+        .toggle
+        {
+            top: 12px;
+        }
+        .firsthead{
+            font-size: 22px;
+        }
+        .head{
+      
+            padding-left: 10px;
+            justify-content:;
+            width: 100%;
+            max-width: 100%;
+            height: 80px;
+           position: fixed;
+            display: flex;
+            flex-direction: column;
+           
+            padding: 10px 40px 0px 10px;
+        }
+        
+        .first-section{
+            line-height: 10px;
+            padding-top: 100px;
+            padding-left: 20px;
+        }
+        .pics{
+            width: 100%;
+            height: 100%;
+        }
+        .mordern{
+            padding-right: 30px;
+            font-size: 25px;
+            line-height: 30px;
+            padding-bottom: 0;
+    
+        }
+        .help{
+            padding-top: 0;
+            font-size: 18px;
+            line-height: 30px;
+         }
+         .button{
+            padding-top: 10px;
+            display: flex;
+flex-direction: column;
+gap: 10px;
+        }
+        .sale, .or{
+   
+           
+            font-size: 15px;
+            padding-top: 10px;
+        }
+        .or{
+            padding-top: 10px;
+        }
+        .create{
+            font-size: 18px;
+           
+           width: 200px;
+           padding:10px;
+          
+           transition: 0.5s;
+        }
+         .everthing{
+            gap:50px;
+         
+          padding-top: 100px;
+          
+            display: flex;
+            flex-direction:column;
+        }
+        .part2{
+            display: flex;
+            flex-direction: column;
+        }
+        .trust{
+            line-height: 20px;
+            font-size: 15px;
+            font-weight: 600;
+        }
+        .part1{
+          gap: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+        .imgs{
+          
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+        }
+        .img{
+            width: 30px;
+            height: 30px;
+        }
+        
+        
+        
+        .play{
+     background-color: #e1ffe9;
+            font-size: 30px;
+            color:rgb(0, 195, 247);
+            gap: 0px;
+          width: px;
+          padding-top: 0px;
+           padding-bottom: 0px;
+           text-align: left;
+           align-items: left;
+            border-radius:0;
+        }
+        .second-section{
+           padding-bottom: 50px;
+            display: flex;
+            flex-direction: column;
+            padding-top: 70px;
+            padding-right: 20px;
+            padding-left: 20px;
+            }
+            .simple{
+                padding-right: 50px;
+                padding-bottom: 20px;
+                font-size: 25px;
+                font-weight: bold;
+            }
+            .build{
+                
+                font-weight: 500;
+                font-size:15px ;
+            }
+            .change ,.sport{
+                padding-right: 10px;
+                padding-top: 70px;
+                gap: 50px;
+                display: flex;
+                flex-direction: column;
+            }
+            .delight{
+        
+                padding-bottom: 15px;
+                font-size: 25px;
+                font-weight: bold;
+            }
+            .give{
+                padding-right: 10px;
+                font-weight: 500;
+                font-size:15px ;
+            }
+            .icons{
+                line-height: 40px;
+                display: flex;
+                flex-direction: column;
+                gap: 0px;
+                padding-top: 20px;
+            }
+            .cards{
+                font-size: 15px;
+                line-height: 20px;
+            }
+            .checkss:hover{
+                background-color: #33a754;
+                color: #fff;
+            }
+            .checkss{
+                
+              color: #33a754;
+                padding: 5px;
+                font-size: 20px;
+                border: 2px solid #3bb75e;
+                border-radius: 400px;
+            }
+            .custom{
+    
+                padding-right: 0;
+                padding-top: 50px;
+              display: flex;
+              flex-direction: column-reverse;
+            }
+            .cad{
+                font-size: 15px;
+               padding-top: 0;
+            }
+            .delights,.your{
+                padding-top: 50px;
+                padding-right: 0px;
+                padding-bottom: 10px;
+                font-size: 25px;
+                font-weight: bold;
+            }
+            .check{
+                line-height: 10px;
+            }
+            .gives{
+                padding-right: 10px;
+                font-weight: 500;
+                font-size:15px ;
+            }
+            .pic{
+              padding-left: 0;
+                width: 0px;
+                padding-right: 0px;
+            }
+            .self{
+                display: none;
+            }
+            .gave{
+                padding-right: 0px;
+                font-weight: 500;
+                font-size:15px ;
+            }
+            .gave{
+                padding-bottom: 10px;
+            }
+           .sport{
+                padding-right: 10px;
+                padding-top: 50px;
+                gap: 50px;
+                display: flex;
+                flex-direction: row;
+            }
+            .three{
+                padding-top: 30px;
+               
+                gap: 20px;
+                display: flex;
+                flex-direction: column;
+            }
+            .brand{
+                padding-left: 10px;
+                padding-bottom: 20px;
+                padding-right: 10px;
+            font-size: 20px;
+           
+            }
+            .brands{
+                padding-left: 10px;
+                padding-right: 0px;
+                font-weight: 500;
+                font-size:15px ;  
+            }
+            .learn{
+                padding-top: 0;
+                padding-left: 10px;
+                font-size: 15px;
+                font-weight: 500;
+            }
+            .entre{
+                padding: 0;
+            }
+            .global{
+                padding: 20px 20px 20px 20px;
+                width: 100px;
+                height: 100px;
+            }
+            .business{
+        padding-right: 50px;
+                padding-bottom: 10px;
+                font-size: 25px;
+                font-weight: bold;
+            }
+            .thousand{
+                font-weight: 500;
+                font-size:15px ;  
+            }
+            .third-section{
+                padding-top: ;
+                background-image: url("https://paystack.com/assets/img/patterns/checked-pattern-blue.png");
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+                background-color:lightcyan;
+            width: 100%;
+            height: 100%;
+            padding-top: 50px;
+            padding-left: 10px;
+            padding-right: 10px;
+            
+        }
+        .fourth-section ,.fifth-section,.sixth-section,.footer{
+            padding-top: 50px;
+            padding-left: 10px;
+            padding-right: 10px;
+        display: flex;
+        flex-direction: column;
+        }
+        .businesses{
+            padding-right: 0;
+            padding-bottom: 10px;
+                font-size: 25px;
+                font-weight: bold;
+          
+        }
+        .thousands{
+            padding-right: 0px;
+            font-weight: 500;
+            font-size:15px ;  
+        }
+        .level{
+            display: none;
+        }
+        .low{
+            width: 80px;
+           
+        }
+        .pictures{
+            gap: 30px;
+            padding: 0;
+            padding-top: 30px;
+            justify-content: left;
+            display: flex;
+            flex-direction: row;
+        }
+        .first-set,.second-set{
+            display: flex;
+            gap: 0px;
+          line-height: 50px;
+            flex-direction: column;
+        }
+        .age{
+            width: 50px;
+            height: 50px;
+        }
+        .collison{
+            gap: 0px;
+        }
+        .otto{
+            font-size: 20px;
+        }
+        .patrick{
+            gap: 10px;
+        }
+        .stripe{
+            font-size: 15px;
+        }
+        .try{
+            text-align: center;
+            font-size: 20px;
+            font-weight:300;
+        }
+        .start{
+           
+            padding-right:0px;
+            padding-bottom: 0px;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .buttun{
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+           gap: 50px;
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 70px;
+        }
+        .acc{
+            height: 45px;
+            font-size: 18px;
+            cursor: pointer;
+           width: 200px;
+           padding: 10px ;
+            text-align: center;
+            align-items: center;
+            border-radius: 10px;
+            color:#fff;
+           background-color: rgb(59, 183, 94);
+           transition: 0.5s;
+        }
+        .social{
+            font-size: 30px;
+            gap: 10px;
+        }
+        .every{
+            gap: 0px;
+              display: flex;
+              flex-direction: column;
+          }
+          .why{
+              padding-top: 10px;
+              font-weight: bold;
+              font-size:18px;
+          }
+          .main,.major{
+             line-height: 40px;
+              display: flex;
+              flex-direction: column;
+              gap: 0px;
+          }
+          .me{
+            display: none;
+              padding-top: 30px;
+          }
+          .minor ,.me{
+            transition: 0.5s ;
+            display: none;
+            transform: translateY(-10px);
+              font-size: 15px;
+          }
+          .down{
+          
+              display: inline;
+              gap: 10px;
+          }
+         
+          [id^=btn-]:checked ~ .minor{
+            transform: translateY(0px);
+            display: block;
+          }
+         .minoor{
+            font-size: 15px;
+         }
+         .row{
+            padding: 0;
+         }
+         .number{
+            font-size: 15px;
+         }
+         .first ,.second{
+            line-height: 10px;
+            font-size: 15px;
+            font-weight: 650;
+        }
+         .link:hover{
+            color:rgb(0, 195, 247); 
+        }
+        .first{
+            gap: 30px;
+            display: flex;
+            flex-direction: column;
+        }
+        .total {
+          
+            padding-top: 16px;
+        justify-content: space-between;
+            gap: 30px;
+            display: flex;
+            flex-direction: column;
+        }
+    }
